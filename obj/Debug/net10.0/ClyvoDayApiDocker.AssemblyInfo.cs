@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClyvoDayApiDocker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af6b5ce3eb147790d22db4ad5e4be44ae95c6fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClyvoDayApiDocker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClyvoDayApiDocker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
