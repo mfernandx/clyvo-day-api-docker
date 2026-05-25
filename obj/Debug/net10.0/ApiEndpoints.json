@@ -1,0 +1,549 @@
+[
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.AnimalEstimacaoController",
+    "Method": "GetAll",
+    "RelativePath": "api/AnimalEstimacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.AnimalEstimacaoController",
+    "Method": "Create",
+    "RelativePath": "api/AnimalEstimacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newAnimalEstimacao",
+        "Type": "ClyvoDayApiDocker.Models.AnimalEstimacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.AnimalEstimacaoController",
+    "Method": "GetById",
+    "RelativePath": "api/AnimalEstimacao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.AnimalEstimacaoController",
+    "Method": "Delete",
+    "RelativePath": "api/AnimalEstimacao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.AnimalEstimacaoController",
+    "Method": "UpdateWeight",
+    "RelativePath": "api/AnimalEstimacao/{id}/atualizapeso",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newWeight",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.ClinicaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Clinica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.Clinica, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.ClinicaController",
+    "Method": "Create",
+    "RelativePath": "api/Clinica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newClinica",
+        "Type": "ClyvoDayApiDocker.Models.Clinica",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.ClinicaController",
+    "Method": "GetById",
+    "RelativePath": "api/Clinica/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ClyvoDayApiDocker.Models.Clinica",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.ClinicaController",
+    "Method": "Delete",
+    "RelativePath": "api/Clinica/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.EventoCuidadoController",
+    "Method": "GetAll",
+    "RelativePath": "api/EventoCuidado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.EventoCuidado, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.EventoCuidadoController",
+    "Method": "Create",
+    "RelativePath": "api/EventoCuidado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newEvento",
+        "Type": "ClyvoDayApiDocker.Models.EventoCuidado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.EventoCuidadoController",
+    "Method": "GetById",
+    "RelativePath": "api/EventoCuidado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ClyvoDayApiDocker.Models.EventoCuidado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.EventoCuidadoController",
+    "Method": "Delete",
+    "RelativePath": "api/EventoCuidado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.MonitoramentoAnimalController",
+    "Method": "GetAll",
+    "RelativePath": "api/MonitoramentoAnimal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.MonitoramentoAnimal, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.MonitoramentoAnimalController",
+    "Method": "Create",
+    "RelativePath": "api/MonitoramentoAnimal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newMonitoramento",
+        "Type": "ClyvoDayApiDocker.Models.MonitoramentoAnimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.MonitoramentoAnimalController",
+    "Method": "GetById",
+    "RelativePath": "api/MonitoramentoAnimal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ClyvoDayApiDocker.Models.MonitoramentoAnimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.MonitoramentoAnimalController",
+    "Method": "GetByAnimalId",
+    "RelativePath": "api/MonitoramentoAnimal/pet/{animalEstimacaoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalEstimacaoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.MonitoramentoAnimal, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.TutoresController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tutores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.Tutores, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.TutoresController",
+    "Method": "Create",
+    "RelativePath": "api/Tutores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tutor",
+        "Type": "ClyvoDayApiDocker.Models.Tutores",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.TutoresController",
+    "Method": "GetById",
+    "RelativePath": "api/Tutores/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ClyvoDayApiDocker.Models.Tutores",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.TutoresController",
+    "Method": "Delete",
+    "RelativePath": "api/Tutores/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.TutoresController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/Tutores/{id}/atualizacontato",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedContact",
+        "Type": "ClyvoDayApiDocker.Models.Tutores",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.VeterinarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Veterinario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.Veterinario, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.VeterinarioController",
+    "Method": "Create",
+    "RelativePath": "api/Veterinario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newVeterinario",
+        "Type": "ClyvoDayApiDocker.Models.Veterinario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.VeterinarioController",
+    "Method": "GetById",
+    "RelativePath": "api/Veterinario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ClyvoDayApiDocker.Models.Veterinario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.VeterinarioController",
+    "Method": "Delete",
+    "RelativePath": "api/Veterinario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.VeterinarioController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/Veterinario/{id}/atualizacontato",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedVeterinario",
+        "Type": "ClyvoDayApiDocker.Models.Veterinario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClyvoDayApiDocker.Controllers.VeterinarioController",
+    "Method": "GetByClinicaId",
+    "RelativePath": "api/Veterinario/clinica/{clinicaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinicaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClyvoDayApiDocker.Models.Veterinario, ClyvoDayApiDocker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
